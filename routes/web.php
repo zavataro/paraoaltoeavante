@@ -17,5 +17,5 @@ Route::get('/', 'HomeController@index')->name('home');
 Route::get('facebook', function () {
     return view('facebook');
 });
-Route::get('auth/facebook', 'auth\LoginFacebookController@redirect');
-Route::get('auth/facebook/callback', 'auth\LoginFacebookController@callback');
+Route::get('auth/facebook', 'Auth\LoginFacebookController@redirect');
+Route::get('auth/facebook/callback', 'Auth\LoginFacebookController@callback');
