@@ -12,7 +12,7 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-  <link href="{{ asset('/assets/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
+  <link href="{{ secure_asset('/assets/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
   <!-- Font Awesome -->
   <link rel="stylesheet" href="{{ asset('/assets/font-awesome/css/font-awesome.min.css') }}">
   <!-- Ionicons -->
@@ -58,7 +58,7 @@
 
 </div>
 <!-- ./wrapper -->
-<script src="{{ asset('/assets/jquery/dist/jquery.min.js') }}"></script>
+<script src="{{ secure_asset('/assets/jquery/dist/jquery.min.js') }}"></script>
 <script src="{{ asset('/assets/bootstrap/dist/js/bootstrap.min.js') }}"></script>
 <script src="{{ asset('/assets/admin-lte/dist/js/adminlte.min.js') }}"></script>
 
