@@ -1,12 +1,10 @@
 <?php
 
-
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-
-class AddNewColunmUsersTable extends Migration
+class AddFacebookId extends Migration
 {
     /**
      * Run the migrations.
@@ -15,11 +13,10 @@ class AddNewColunmUsersTable extends Migration
      */
     public function up()
     {
-        Schema::table("users", function (Blueprint $table) {
-            $table->string('facebook_id');
+        Schema::table('users', function (Blueprint $table) {
+            $table->string('facebook_id'); //just add this line
         });
     }
-
 
     /**
      * Reverse the migrations.
@@ -28,8 +25,8 @@ class AddNewColunmUsersTable extends Migration
      */
     public function down()
     {
-        Schema::table("users", function (Blueprint $table) {
-            $table->dropColumn('facebook_id');
+        Schema::table('users', function (Blueprint $table) {
+            //
         });
     }
 }
