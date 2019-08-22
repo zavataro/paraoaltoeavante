@@ -63,6 +63,13 @@
                                 </a>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-md-12 row-block">
+                                <a href="{{ url('auth/facebook') }}" class="btn btn-lg btn-primary btn-block">
+                                    <strong>Entre com Facebook</strong>
+                                </a>     
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
