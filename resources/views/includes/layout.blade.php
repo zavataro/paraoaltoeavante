@@ -9,18 +9,18 @@
     <title>Para o Alto e Avante</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ secure_asset('js/app.js') }}" defer></script>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link href="{{ secure_asset('/assets/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="{{ asset('/assets/font-awesome/css/font-awesome.min.css') }}">
+  <link rel="stylesheet" href="{{ secure_asset('/assets/font-awesome/css/font-awesome.min.css') }}">
   <!-- Ionicons -->
-  <link rel="stylesheet" href="{{ asset('/assets/Ionicons/css/ionicons.min.css') }}">
+  <link rel="stylesheet" href="{{ secure_asset('/assets/Ionicons/css/ionicons.min.css') }}">
   <!-- Theme style -->
-  <link href="{{ asset('/assets/admin-lte/dist/css/AdminLTE.min.css')}}" rel="stylesheet" type="text/css" />
+  <link href="{{ secure_asset('/assets/admin-lte/dist/css/AdminLTE.min.css')}}" rel="stylesheet" type="text/css" />
 
-  <link rel="stylesheet" href="{{ asset('/assets/admin-lte/dist/css/skins/skin-green.min.css') }}">
+  <link rel="stylesheet" href="{{ secure_asset('/assets/admin-lte/dist/css/skins/skin-green.min.css') }}">
 
   <!-- Google Font -->
   <link rel="stylesheet"
@@ -59,8 +59,8 @@
 </div>
 <!-- ./wrapper -->
 <script src="{{ secure_asset('/assets/jquery/dist/jquery.min.js') }}"></script>
-<script src="{{ asset('/assets/bootstrap/dist/js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('/assets/admin-lte/dist/js/adminlte.min.js') }}"></script>
+<script src="{{ secure_asset('/assets/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+<script src="{{ secure_asset('/assets/admin-lte/dist/js/adminlte.min.js') }}"></script>
 
 </body>
 </html>
